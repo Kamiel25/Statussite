@@ -2,6 +2,21 @@
 <html>
 <head>
 <title>Zoek Clan</title>
+    
+<ul class="main-nav">
+    
+    <li> <a href="https://kamiel25.github.io/Statussite/home.html?"> Home </a> </li> 
+            
+    <li class="active"> <a href="https://goo.gl/forms/zkVG3X0jESM5JNAn2"> Clan zoeken </a> </li>
+    
+    <li> <a href="https://kamiel25.github.io/Statussite/contact.html"> Contact </a> </li> 
+
+</ul>
+    
+<div>
+    <img class="avatar" width="100px" height="auto" alt="" src="avatar.png" heigt="100px">
+</div>
+    
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -28,6 +43,38 @@ body{
     top: 5;
 }
 
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px
+}
+
+.main-nav li.active a
+{
+    border: 0.5px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
 </style>
     
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,9 +83,10 @@ body{
 <div class="container"></div>
     <form>
         <div class="input-group">
-            <input type+"text" class="form-control" placeholder="Search" name="search">
+            <input type="text" class="form-control" placeholder="Search" name="search">
             <div class="input-group-btn"></div>
             <button class="btn btn-default" type="submit"></button>
+            <li class="active"> <a href="https://goo.gl/forms/zkVG3X0jESM5JNAn2"> DoubleGames </a> </li>
             <i class="glyphicon glyphicon-search"></i>
 </div>
 </form>
